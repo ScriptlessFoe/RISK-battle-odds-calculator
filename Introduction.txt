@@ -1,0 +1,14 @@
+RISK is a classic board game with the objective of eliminating your opponents.
+This objective is achieved by conquering all your opponents territories, which are decided by battles.
+On a player's turn, they may choose to attack an adjacent opponent's territory with an army located in adjacent territory.
+The attacking and defending player has a number of troops in their army located in their respective territories.
+The players then perform a series of battles to determine if the attacked territory is defended or conquered.
+Each battle is performed through dice rolls, which determines how many troops are lost in the battle, up to 2 on either side.
+The final outcome of the attack is determined by the result of all the battles, typically with one side losing all their troops.
+Although the probabilities of an individual battle are relatively straight forward to calculate, the probability of conquering a territory is not so clear
+Since the starting conditions of a battle is determined by the results of the previous battle, these conditions can be naturally represented with an absorbing Markov chain.
+In this project, Markov chain theory will be applied to the game of RISK.
+
+Sources:
+https://en.wikipedia.org/wiki/Absorbing_Markov_chain
+https://cdn.1j1ju.com/medias/ad/d9/a3-risk-rulebook.pdf
